@@ -8,6 +8,7 @@ def twoDiceRoll():
     for roll in range(total_rolls):
         result.append(random.randint(1, 6))
 
+    print("Testing for SBT-17")
     rolls_sum = sum(result)
     print("Two Dice Roll Summary: ")
     print(f'Rolls: {result}')
