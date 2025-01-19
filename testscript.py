@@ -1,7 +1,7 @@
 import random
 
 
-def main():
+def diceRoll():
     total_rolls = 2
     result = []
 
@@ -16,4 +16,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    diceRoll()
