@@ -5,6 +5,7 @@ def twoDiceRoll():
     total_rolls = 2
     result = []
 
+    #SBT-19
     for roll in range(total_rolls):
         result.append(random.randint(1, 6))
 
