@@ -6,6 +6,7 @@ def twoDiceRoll():
     result = []
     # a new comment
     #SBT-34 stuff
+    # mostly important -- SBT-52
     for roll in range(total_rolls):
         result.append(random.randint(1, 6))
 
