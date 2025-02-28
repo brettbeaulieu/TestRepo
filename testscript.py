@@ -1,6 +1,6 @@
 import random
 
-
+# Task 19
 def twoDiceRoll():
     total_rolls = 2
     result = []
@@ -10,7 +10,9 @@ def twoDiceRoll():
     for roll in range(total_rolls):
         result.append(random.randint(1, 6))
 
+    print("Testing for SBT-18")
     rolls_sum = sum(result)
+    print("Testing for SBT-17 (No Caps)")
     print("Two Dice Roll Summary: ")
     print(f'Rolls: {result}')
     print(f'Sum: {rolls_sum}')
